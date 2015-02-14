@@ -10,6 +10,9 @@ body {
 	height: 500px;
 }
 
+.ryu {
+	float: left;
+}
 
 .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
 	width: 659px;
@@ -50,6 +53,35 @@ body {
 .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool, .hadouken {
 	background-repeat: no-repeat;
 }
+
+.all-text {
+	width: 1000px; 
+  	height: 502px;
+  	padding-top: 10px;
+	/* position: relative;
+	top: -498px;
+	left: 600px;
+	display: block; */
+	float: right;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 50px;
+	text-align: justify;
+}
+
+.throw-instruction {
+	margin-right: 550px;
+	margin-top: 75px;
+	display: block;
+	position: absolute;
+}
+
+.pose-instruction {
+	margin-left: 400px;
+	margin-top: 272px;
+	display: block;
+
+}
+
 
 
 
